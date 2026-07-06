@@ -33,6 +33,16 @@ pizzeria (including its address and coordinates), but deliberately excludes thir
 content: no aggregator ratings, reviews, review counts, photos, or place identifiers. See the
 data dictionary for the full column list and the reasoning.
 
+## OpenStreetMap and credits
+
+The interactive map (on the site and in this repo's [`demo/`](demo/)) is rendered on
+OpenStreetMap data, served as CARTO basemap tiles. OpenPizzaMap has also used the Overpass
+API to cross-check and fill curated pizzerias' metadata against OpenStreetMap where coverage
+allows; it does not bulk-import places from OpenStreetMap. The dataset's coordinates and
+addresses are independently sourced and are not derived from OpenStreetMap.
+
+Map data © OpenStreetMap contributors (ODbL). Basemap tiles © CARTO.
+
 ## Contribute
 
 - Suggest a pizzeria: [openpizzamap.com/add-your-spot](https://openpizzamap.com/add-your-spot)

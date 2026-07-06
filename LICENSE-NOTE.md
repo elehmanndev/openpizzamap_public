@@ -27,3 +27,11 @@ reads is CC-BY-4.0. Check the folder's LICENSE before reusing any code.
 The demo's pizza marker (`demo/marker-pizza.svg`) is from the Google Noto Emoji project
 (Apache-2.0), not MIT. Third-party attributions for the demo are listed in
 [`demo/NOTICE.md`](demo/NOTICE.md).
+
+## OpenStreetMap
+
+The map basemap (on openpizzamap.com and in [`demo/`](demo/)) uses OpenStreetMap data,
+served as CARTO tiles: map data © OpenStreetMap contributors, licensed under the Open
+Database License (ODbL). This dataset's coordinates and addresses are independently sourced
+and are not derived from OpenStreetMap, so the dataset is offered under CC-BY-4.0 rather than
+ODbL.
