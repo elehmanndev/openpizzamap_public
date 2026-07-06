@@ -1,29 +1,47 @@
-# OpenPizzaMap — community
+# OpenPizzaMap Open Data
 
-The community-facing repo for [openpizzamap.com](https://openpizzamap.com).
+A community-curated map of pizzerias worth traveling for, at
+[openpizzamap.com](https://openpizzamap.com). This repository is the project's open,
+public face: the curated dataset, the documentation, and the place to suggest spots or
+report bad data.
 
-Every spot on the map was put there by someone who showed up and ate the pie. No chains, no tourist traps, no "Karen reviews" docking stars for parking.
+Every pizzeria on the map is hand-picked and checked before it appears. This repo publishes
+the *result* of that curation as an open dataset, free to reuse under CC-BY-4.0.
 
-## Suggest a spot
+## The dataset
 
-The fastest way: [openpizzamap.com/add-your-spot](https://openpizzamap.com/add-your-spot). It takes a Google Maps link and we take it from there.
+[`data/openpizzamap-pizzerias.csv`](data/openpizzamap-pizzerias.csv) and
+[`data/openpizzamap-pizzerias.geojson`](data/openpizzamap-pizzerias.geojson): 3607
+curated pizzerias with name, address, coordinates, city, region, country, pizza style,
+price level, service options, the OpenPizzaMap rating, the venue's own links, and a link to
+its page on openpizzamap.com.
 
-No GitHub account, no markdown. Just the link.
+See [`docs/DATA-DICTIONARY.md`](docs/DATA-DICTIONARY.md) for every column, and
+[`docs/METHODOLOGY.md`](docs/METHODOLOGY.md) for how places are chosen and rated.
 
-Prefer GitHub? Open a [Suggest a spot](https://github.com/elehmanndev/openpizzamap_public/issues/new?template=suggest-a-spot.md) issue.
+## How to use it
 
-## Report bad data
+Free to use, share, and adapt under CC-BY-4.0. The one requirement is attribution: credit
+"OpenPizzaMap (openpizzamap.com)" and, where practical, link back to the site or the
+specific pizzeria's page (the `url` column).
 
-Wrong address, closed, not actually a pizzeria? Open a [Report bad data](https://github.com/elehmanndev/openpizzamap_public/issues/new?template=report-bad-data.md) issue. Include the place URL.
+## What's here and what isn't
 
-## Built with
+This repo holds the curated dataset, docs, and community submissions. It does not hold the
+website's source code, which stays private. The dataset covers factual information about each
+pizzeria (including its address and coordinates), but deliberately excludes third-party
+content: no aggregator ratings, reviews, review counts, photos, or place identifiers. See the
+data dictionary for the full column list and the reasoning.
 
-Node.js · Express · Prisma · TiDB · Leaflet · OpenStreetMap · Cloudflare. The site code is in a private repo; community contributions flow through the form and this repo's issues.
+## Contribute
 
-## Mission
+- Suggest a pizzeria: [openpizzamap.com/add-your-spot](https://openpizzamap.com/add-your-spot)
+  or open an issue with the template.
+- Report bad data (closed, wrong details, not actually a pizzeria): open an issue.
 
-Reddit-style karma beats star averages. A pizzaiolo's opinion on a Neapolitan oven matters more than a tourist's parking complaint. We're building the map your friend who's been to Naples would draw on a napkin.
+See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-Content in this repo (READMEs, issue templates, contribution docs) is licensed under [CC-BY-4.0](LICENSE).
+- **Data** (`/data`): CC-BY-4.0. See [LICENSE](LICENSE) and [LICENSE-NOTE.md](LICENSE-NOTE.md).
+- Attribution: OpenPizzaMap, https://openpizzamap.com

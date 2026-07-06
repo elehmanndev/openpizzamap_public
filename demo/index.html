@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OpenPizzaMap — Open Dataset Explorer</title>
+  <meta name="description" content="An interactive map and filterable directory built entirely from the OpenPizzaMap open dataset (CC-BY-4.0).">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin="">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" crossorigin="">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>OpenPizzaMap Open Dataset Explorer</h1>
+    <p class="tagline">
+      Every pin below is drawn live from the published open dataset. No backend, no build step,
+      just a static page reading the same files anyone can download.
+    </p>
+    <p class="credit">
+      Data: <a href="https://openpizzamap.com" rel="noopener">OpenPizzaMap</a>,
+      licensed <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC-BY-4.0</a>.
+      This demo's code is MIT (see <code>demo/LICENSE</code>).
+    </p>
+  </header>
+
+  <section class="filters" aria-label="Filters">
+    <label>Country
+      <select id="filter-country"><option value="">All countries</option></select>
+    </label>
+    <label>City
+      <select id="filter-city"><option value="">All cities</option></select>
+    </label>
+    <label>Style
+      <select id="filter-style"><option value="">All styles</option></select>
+    </label>
+    <p class="count" id="result-count" aria-live="polite"></p>
+  </section>
+
+  <main class="layout">
+    <div id="map" role="application" aria-label="Map of pizzerias"></div>
+    <ul id="results" class="results" aria-label="Matching pizzerias"></ul>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      Built from <code>data/openpizzamap-pizzerias.geojson</code> and
+      <code>data/pizza-styles.json</code>. Map tiles &copy;
+      <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a> contributors
+      &copy; <a href="https://carto.com/attributions" rel="noopener">CARTO</a>.
+    </p>
+    <p>
+      Pizza marker from the
+      <a href="https://github.com/googlefonts/noto-emoji" rel="noopener">Google Noto Emoji</a>
+      project (Apache-2.0). Full credits in <code>demo/NOTICE.md</code>.
+    </p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" crossorigin=""></script>
+  <script src="app.js"></script>
+</body>
+</html>

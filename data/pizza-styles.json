@@ -1,0 +1,71 @@
+[
+  {
+    "slug": "neapolitan",
+    "name": "Neapolitan",
+    "description": "The original: a soft, blistered cornicione, a thin center under San Marzano tomatoes and fior di latte, and 60 to 90 seconds in a wood oven running close to 485C."
+  },
+  {
+    "slug": "contemporanea",
+    "name": "Neapolitan Contemporanea",
+    "description": "Modern Neapolitan pizza that keeps the DNA but rewrites the rim: higher hydration, longer ferments and a tall, airy canotto crust, built for lightness."
+  },
+  {
+    "slug": "italian",
+    "name": "Traditional Italian"
+  },
+  {
+    "slug": "al-taglio",
+    "name": "Pizza al Taglio",
+    "description": "Rome's by-the-slice tradition: baked in long rectangular trays, sold by weight and cut with scissors, with a high-hydration, long-fermented open crumb."
+  },
+  {
+    "slug": "alla-pala",
+    "name": "Pizza alla Pala",
+    "description": "The Roman cousin of al taglio, baked and served on a long wooden peel in an elongated oval, with very wet, long-fermented dough and a light, crisp crust."
+  },
+  {
+    "slug": "romana",
+    "name": "Roman Tonda",
+    "description": "Rolled paper-thin and baked until the base shatters like a cracker, with almost no raised rim. That scrocchiarella snap is the whole appeal."
+  },
+  {
+    "slug": "pinsa",
+    "name": "Pinsa",
+    "description": "The oval, feather-light Roman flatbread: wheat blended with rice and soy flours, very high hydration and a long cold ferment, crisp outside and airy inside."
+  },
+  {
+    "slug": "padellino",
+    "name": "Pizza al Padellino",
+    "description": "Turin's small, personal pan pizza, also called al tegamino: thick and soft in the middle with a bottom fried crisp by the oiled pan."
+  },
+  {
+    "slug": "sicilian",
+    "name": "Sicilian",
+    "description": "Thick, square and built for the bakery, with roots in sfincione, a spongy Palermo flatbread topped with onion, breadcrumb, anchovy and caciocavallo."
+  },
+  {
+    "slug": "pizza-fritta",
+    "name": "Pizza Fritta",
+    "description": "Naples' fried answer to the oven: dough stuffed with ricotta, cicoli, provola and a little tomato, sealed and dropped into hot oil until it puffs gold."
+  },
+  {
+    "slug": "ny",
+    "name": "New York-Style",
+    "description": "Wide, thin, hand-tossed and foldable, baked in a hot deck oven until the underside is spotted and pliable. Descended from Neapolitan, stretched larger."
+  },
+  {
+    "slug": "new-haven",
+    "name": "New Haven Apizza",
+    "description": "Connecticut's coal-fired pizza: thin, irregular, charred hard at the edges, with a dry, smoky, chewy crust closer to its Neapolitan ancestor than to New York."
+  },
+  {
+    "slug": "detroit",
+    "name": "Detroit-Style",
+    "description": "The rectangular one with crunchy, lacy edges, baked in blue-steel pans with brick cheese pushed to the walls so it fries into a crisp frico rim, sauce on last."
+  },
+  {
+    "slug": "chicago",
+    "name": "Chicago Deep-Dish",
+    "description": "Built in a high-edged pan and stacked in reverse: cheese on the dough, fillings next, and crushed tomato on top so the long bake does not scorch it."
+  }
+]

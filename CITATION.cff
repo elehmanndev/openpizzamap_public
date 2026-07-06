@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "OpenPizzaMap Curated Pizzeria Dataset"
+abstract: "A hand-curated, community-checked dataset of pizzerias worth traveling for, with pizza style, price level, service options, and the OpenPizzaMap rating."
+type: dataset
+url: "https://openpizzamap.com"
+repository-code: "https://github.com/elehmanndev/openpizzamap_public"
+license: CC-BY-4.0
+authors:
+  - name: "OpenPizzaMap"
+    website: "https://openpizzamap.com"
+keywords:
+  - pizza
+  - pizzeria
+  - open data
+  - restaurants
+  - map
