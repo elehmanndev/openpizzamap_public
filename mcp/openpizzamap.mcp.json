@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "openpizzamap": {
+      "type": "http",
+      "url": "https://openpizzamap.com/mcp"
+    }
+  }
+}
