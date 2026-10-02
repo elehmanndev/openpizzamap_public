@@ -25,9 +25,19 @@ Free to use, share, and adapt under CC-BY-4.0. The one requirement is attributio
 "OpenPizzaMap (openpizzamap.com)" and, where practical, link back to the site or the
 specific pizzeria's page (the `url` column).
 
+## Use with AI assistants
+
+OpenPizzaMap offers a public, read-only MCP endpoint at
+`https://openpizzamap.com/mcp`. Connect with Streamable HTTP and no authentication.
+Search live pizzeria information from a compatible assistant; hosts with MCP
+Apps support can also display interactive maps and cards.
+
+See the [MCP connection guide](docs/MCP.md) for Claude Code setup, tool examples,
+UI compatibility and limits, or use the [JSON configuration](mcp/openpizzamap.mcp.json).
+
 ## What's here and what isn't
 
-This repo holds the curated dataset, docs, and community submissions. It does not hold the
+This repo holds the curated dataset, docs, MCP connection examples, and community submissions. It does not hold the
 website's source code, which stays private. The dataset covers factual information about each
 pizzeria (including its address and coordinates), but deliberately excludes third-party
 content: no aggregator ratings, reviews, review counts, photos, or place identifiers. See the
