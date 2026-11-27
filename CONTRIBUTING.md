@@ -32,4 +32,8 @@ Fixes go to the live map first and reach the dataset in the next weekly build. P
 
 ## What this repo is not
 
-This is the community-facing repo. The site code lives in a separate private repo. We won't merge code PRs here; if you spot a bug on the live site, open an issue describing it.
+This is the community-facing repo. Most of the site code lives in a separate private repo. If you spot a bug on the live site, open an issue describing it.
+
+## Code you can change here
+
+[`lib/`](lib/) holds two pieces of the site code, published as they run: the OpenPizzaMap rating formula and the dough calculator engine (MIT). Pull requests are welcome there, for example a fix to the dough math or a new style preset with a source. Run `npm test` first. Merged changes are carried over to the site by hand.

@@ -2,6 +2,13 @@
 
 All notable changes to the OpenPizzaMap open dataset are documented here.
 
+## [2.1.0] - 2026-11-27
+### Added
+- `lib/opm-rating.js`: the rating formula behind `opm_rating`, with tests (MIT).
+- `lib/dough/`: the dough calculator engine, presets, flours and ovens, with tests (MIT).
+- `docs/DOUGH-MATH.md`: the design and math of the dough calculator.
+- `npm test` and a GitHub Actions test run.
+
 ## [2.0.0] - 2026-11-27
 ### Changed
 - **License: data is now ODbL 1.0** (was CC-BY-4.0). Documentation stays CC-BY-4.0, demo code
