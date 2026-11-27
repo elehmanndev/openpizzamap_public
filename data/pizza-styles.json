@@ -2,76 +2,263 @@
   {
     "slug": "neapolitan",
     "name": "Neapolitan",
-    "description": "The Naples original: soft, blistered cornicione from a 900F wood oven in about 90 seconds. Where to eat real Neapolitan pizza, ranked by taste."
+    "description": "The Naples original: soft, blistered cornicione from a 900F wood oven in about 90 seconds. Where to eat real Neapolitan pizza, ranked by taste.",
+    "names": {
+      "en": "Neapolitan",
+      "de": "Napoletana",
+      "es": "Napolitana",
+      "fr": "Napolitaine",
+      "it": "Napoletana"
+    },
+    "definitions": {
+      "en": "Neapolitan pizza is where it all began, born in Naples and still governed by rules the city takes seriously. Expect a soft, blistered cornicione, a thin center that folds under San Marzano tomatoes and fior di latte, and just 60 to 90 seconds in a wood oven running close to 485°C. Did you know? The craft of the pizzaiuolo napoletano sits on UNESCO's list of intangible cultural heritage, and the classic Margherita was named for Queen Margherita of Savoy in 1889.",
+      "de": "Die neapolitanische Pizza ist der Ursprung von allem und stammt aus Neapel, bis heute nach den strengen Vorgaben der AVPN gebacken. Typisch sind ein weicher, gebräunter Rand, eine dünne Mitte, die unter San-Marzano-Tomaten und Fior di Latte nachgibt, und nur 60 bis 90 Sekunden im Holzofen bei fast 485 °C. Gut zu wissen: Die Kunst des pizzaiuolo napoletano steht auf der UNESCO-Liste des immateriellen Kulturerbes, und die klassische Margherita ist seit 1889 nach Königin Margherita von Savoyen benannt.",
+      "es": "La pizza napolitana es donde empezó todo: nació en Nápoles y sigue rigiéndose por normas que la ciudad se toma en serio. La reconocerás por su borde (cornicione) tierno y leopardado, por un centro fino que cede bajo el tomate San Marzano y el fior di latte, y por apenas 60 a 90 segundos en un horno de leña cerca de los 485 °C. ¿Sabías que el arte del pizzaiuolo napoletano figura en la lista del patrimonio cultural inmaterial de la UNESCO, y que la clásica margarita se bautizó en honor a la reina Margarita de Saboya en 1889?",
+      "fr": "La pizza napolitaine, c'est là que tout a commencé : née à Naples et toujours encadrée par des règles que la ville prend au sérieux. On reconnaît son cornicione souple et cloqué, son centre fin qui ploie sous des tomates San Marzano et du fior di latte, et sa cuisson éclair de 60 à 90 secondes dans un four à bois proche de 485 °C. Le saviez-vous ? L'art du pizzaiuolo napoletano figure sur la liste du patrimoine culturel immatériel de l'UNESCO, et la Margherita classique doit son nom à la reine Marguerite de Savoie, en 1889.",
+      "it": "La pizza napoletana è il punto di partenza di tutto, nata a Napoli e custodita dalla città con il suo disciplinare. Cornicione morbido e ben alveolato, centro sottile che si piega sotto San Marzano e fior di latte, da 60 a 90 secondi nel forno a legna vicino ai 485 °C: la grammatica la conosciamo tutti. Vale la pena ricordarlo: l'arte del pizzaiuolo napoletano è patrimonio immateriale UNESCO, e la Margherita porta il nome della Regina Margherita di Savoia dal 1889. Ed è una tradizione che ha viaggiato senza perdersi per strada, da Napoli a New York a Barcellona."
+    },
+    "url": "https://openpizzamap.com/style/neapolitan"
   },
   {
     "slug": "contemporanea",
     "name": "Neapolitan Contemporanea",
-    "description": "Modern Naples pizza: long-fermented, high-hydration dough with a tall, airy cornicione. Where to eat pizza contemporanea, ranked by taste."
+    "description": "Modern Naples pizza: long-fermented, high-hydration dough with a tall, airy cornicione. Where to eat pizza contemporanea, ranked by taste.",
+    "names": {
+      "en": "Neapolitan Contemporanea",
+      "de": "Napoletana Contemporanea",
+      "es": "Napolitana contemporánea",
+      "fr": "Napolitaine contemporaine",
+      "it": "Napoletana contemporanea"
+    },
+    "definitions": {
+      "en": "Neapolitan contemporanea is modern Neapolitan pizza: a new generation keeps the Neapolitan DNA but rewrites the rim. Higher hydration, longer ferments and a tall, airy canotto crust (the word means \"rubber dinghy\"), built for lightness on the stomach as much as the eye. The center stays thin and the wood oven still runs hot, but the dough is treated like a living, scheduled thing. Did you know? The movement is often traced to Franco Pepe and a wave of pizzaioli north of Naples who turned dough into fine dining.",
+      "de": "Die napoletana contemporanea ist die moderne neapolitanische Pizza: Eine neue Generation behält die neapolitanische DNA, schreibt aber den Rand neu. Höhere Hydration, längere Gärungen und ein hoher, luftiger canotto-Rand, gebaut auf Leichtigkeit im Magen ebenso wie fürs Auge. Die Mitte bleibt dünn und der Holzofen läuft weiter heiß, doch der Teig wird wie etwas Lebendiges und Geplantes behandelt. Gut zu wissen: Die Bewegung wird oft auf Franco Pepe und eine Welle von Pizzaioli nördlich von Neapel zurückgeführt, die den Teig zur gehobenen Küche machten.",
+      "es": "La napolitana contemporanea es la versión moderna de la napolitana: una nueva generación conserva el ADN napolitano, pero reescribe el borde. Más hidratación, fermentaciones más largas y un borde alto y aireado, el canotto (literalmente, un bote hinchable), pensado tanto para la ligereza en el estómago como para la vista. El centro sigue fino y el horno de leña aún va caliente, pero la masa se trata como algo vivo y medido al detalle. ¿Sabías que el movimiento suele atribuirse a Franco Pepe y a una oleada de pizzaioli al norte de Nápoles que elevaron la masa a la alta cocina?",
+      "fr": "La napolitaine contemporanea, c'est la napolitaine moderne : une nouvelle génération garde l'ADN napolitain mais réécrit le bord. Hydratation plus forte, fermentations plus longues et une croûte haute et aérée, le canotto, du nom du canot pneumatique, pensée pour la légèreté sur l'estomac autant que pour l'œil. Le centre reste fin et le four à bois tourne toujours à chaud, mais la pâte est traitée comme une matière vivante et maîtrisée. Le saviez-vous ? On fait souvent remonter le mouvement à Franco Pepe et à une vague de pizzaioli au nord de Naples qui ont hissé la pâte au rang de haute cuisine.",
+      "it": "La napoletana contemporanea è la napoletana di oggi: una nuova generazione tiene il DNA napoletano e riscrive il cornicione. Idratazioni più alte, lievitazioni più lunghe e un canotto alto e arioso, pensato per la leggerezza tanto quanto per l'occhio. Il centro resta sottile, il forno a legna gira ancora caldo, ma l'impasto si tratta come una cosa viva e programmata. Un dettaglio: il movimento si fa spesso risalire a Franco Pepe e a un'ondata di pizzaioli a nord di Napoli che hanno portato l'impasto nell'alta cucina."
+    },
+    "url": "https://openpizzamap.com/style/contemporanea"
   },
   {
     "slug": "italian-style",
     "name": "Italian Style",
-    "description": "The everyday Italian round pie, thin and pliable in the center with a blistered rim. Where to eat classic Italian pizza, ranked by taste."
+    "description": "The everyday Italian round pie, thin and pliable in the center with a blistered rim. Where to eat classic Italian pizza, ranked by taste.",
+    "names": {
+      "en": "Italian Style",
+      "de": "Italiana",
+      "es": "Italiana",
+      "fr": "Italiana",
+      "it": "Stile italiano"
+    },
+    "definitions": {},
+    "url": "https://openpizzamap.com/style/italian-style"
   },
   {
     "slug": "romana",
     "name": "Roman-Style",
-    "description": "Pizza tonda romana, rolled thin and baked cracker-crisp edge to edge in a hot oven. Where to eat Roman-style pizza, ranked by taste."
+    "description": "Pizza tonda romana, rolled thin and baked cracker-crisp edge to edge in a hot oven. Where to eat Roman-style pizza, ranked by taste.",
+    "names": {
+      "en": "Roman-Style",
+      "de": "Romana",
+      "es": "Romana",
+      "fr": "Romana",
+      "it": "Romana"
+    },
+    "definitions": {
+      "en": "Romans will tell you their pizza is the tonda romana: rolled paper-thin, baked until the base shatters like a cracker, with almost no raised rim. It is the opposite of the soft Neapolitan disc, built for crunch, eaten quickly, usually one per person. That scrocchiarella snap is the whole appeal, and getting it right is harder than it looks. Did you know? Roman dough usually works in a little olive oil, which the Neapolitan version leaves out, and that fat is part of what gives the tonda its brittle bite.",
+      "de": "In Rom ist die Pizza die tonda romana: hauchdünn ausgerollt, gebacken, bis die Basis wie ein Cracker bricht, fast ohne erhöhten Rand. Sie ist das Gegenteil der weichen neapolitanischen Scheibe, gemacht für den Knusper, schnell gegessen, meist eine pro Person. Dieser Knack der scrocchiarella ist der ganze Reiz, und ihn hinzubekommen ist schwerer, als es aussieht. Gut zu wissen: In den römischen Teig kommt meist etwas Olivenöl, das die neapolitanische Version weglässt, und genau dieses Fett gibt der tonda ihren spröden Biss.",
+      "es": "En Roma, su pizza por excelencia es la tonda romana: estirada finísima y horneada hasta que la base cruje como un cracker, casi sin borde levantado. Es lo contrario del disco suave de la napolitana, pensada para el crujido, comida deprisa y normalmente una por persona. Ese chasquido de la scrocchiarella es todo su atractivo, y conseguirlo cuesta más de lo que parece. ¿Sabías que la masa romana suele llevar un poco de aceite de oliva, algo que la versión napolitana deja fuera, y que esa grasa es parte de lo que da a la tonda su mordida quebradiza?",
+      "fr": "À Rome, on vous dira que la vraie pizza, c'est la tonda romana : abaissée très finement, cuite jusqu'à ce que la base craque comme une biscotte, presque sans bord relevé. C'est l'opposé du disque souple de la napolitaine, faite pour le croquant, mangée vite, en général une par personne. Ce claquement de la scrocchiarella fait tout son intérêt, et le réussir est plus dur qu'il n'y paraît. Le saviez-vous ? La pâte romaine intègre d'ordinaire un peu d'huile d'olive, que la version napolitaine laisse de côté, et cette matière grasse participe à la cassure fragile de la tonda.",
+      "it": "A Roma la pizza è la tonda romana: stesa sottilissima, cotta finché la base si spezza come un cracker, quasi senza bordo. È l'opposto del morbido disco napoletano, fatta per la croccantezza, mangiata in fretta, una a testa. Quello scatto della scrocchiarella è tutto, e ottenerlo non è così semplice come sembra. Un dettaglio: nell'impasto romano entra di solito un filo d'olio d'oliva, che la napoletana lascia fuori, ed è anche quel grasso a dare alla tonda il suo morso fragile."
+    },
+    "url": "https://openpizzamap.com/style/romana"
   },
   {
     "slug": "al-taglio",
     "name": "Pizza al Taglio",
-    "description": "Roman pizza baked in trays and sold by weight: high-hydration dough, long ferment, crisp base. Where to eat pizza al taglio, ranked."
+    "description": "Roman pizza baked in trays and sold by weight: high-hydration dough, long ferment, crisp base. Where to eat pizza al taglio, ranked.",
+    "names": {
+      "en": "Pizza al Taglio"
+    },
+    "definitions": {
+      "en": "Pizza al taglio is Rome's by-the-slice tradition: baked in long rectangular trays, sold by weight, and cut with scissors. The dough is the point, with high hydration and a long, slow ferment giving an open, airy crumb under toppings that change with whatever the counter has that morning. You point, they weigh it, you eat standing up. Did you know? The modern style was reinvented in the 2000s by Gabriele Bonci, the Roman baker the press nicknamed \"the Michelangelo of pizza.\"",
+      "de": "Pizza al taglio ist die römische Tradition der Scheibe nach Gewicht: in langen rechteckigen Blechen gebacken, nach Gewicht verkauft und mit der Schere geschnitten. Der Teig ist der Punkt, mit hoher Hydration und langer, langsamer Gärung für eine offene, luftige Krume unter Belägen, die mit dem wechseln, was die Theke an dem Morgen hat. Man zeigt auf ein Stück, sie wiegen es, gegessen wird im Stehen. Gut zu wissen: Den modernen Stil hat in den 2000ern Gabriele Bonci neu erfunden, der römische Bäcker, den die Presse den \"Michelangelo der Pizza\" nannte.",
+      "es": "La pizza al taglio es la tradición romana de la porción al peso, tal como se vive en Roma: se hornea en bandejas rectangulares largas, se vende al peso y se corta con tijeras. Aquí la masa es lo que manda, con alta hidratación y una fermentación larga y lenta que dejan una miga abierta y aireada bajo unos ingredientes que cambian según lo que haya en el mostrador esa mañana. Señalas, pesan y comes de pie. ¿Sabías que el estilo moderno lo reinventó en los años 2000 Gabriele Bonci, el panadero romano al que la prensa apodó «el Miguel Ángel de la pizza»?",
+      "fr": "La pizza al taglio, c'est la tradition romaine de la part au poids, à Rome : cuite dans de longues plaques rectangulaires, vendue au poids et coupée aux ciseaux. Tout se joue sur la pâte, avec un fort taux d'hydratation et une longue fermentation lente qui donnent une mie ouverte et aérée, sous des garnitures qui changent au gré de ce que le comptoir propose le matin même. Vous montrez du doigt, on pèse, vous mangez debout. Le saviez-vous ? Le style moderne a été réinventé dans les années 2000 par Gabriele Bonci, le boulanger romain que la presse a surnommé « le Michel-Ange de la pizza ».",
+      "it": "La pizza al taglio è la porzione a peso di Roma: cotta in lunghe teglie rettangolari, venduta a peso e tagliata con le forbici. Il punto è l'impasto, alta idratazione e lievitazione lunga e lenta, per una mollica aperta e ariosa sotto condimenti che cambiano con quello che il banco ha quella mattina. Indichi, pesano, mangi in piedi. Un dettaglio: lo stile moderno lo ha rilanciato negli anni 2000 Gabriele Bonci, il fornaio che la stampa ha ribattezzato \"il Michelangelo della pizza\"."
+    },
+    "url": "https://openpizzamap.com/style/al-taglio"
   },
   {
     "slug": "pinsa",
     "name": "Pinsa",
-    "description": "Roman pinsa: an oval, airy flatbread from a wheat, rice and soy blend, long-fermented and crisp. Where to eat pinsa, ranked."
+    "description": "Roman pinsa: an oval, airy flatbread from a wheat, rice and soy blend, long-fermented and crisp. Where to eat pinsa, ranked.",
+    "names": {
+      "en": "Pinsa"
+    },
+    "definitions": {
+      "en": "Pinsa is the oval, feather-light Roman flatbread that is everywhere now and younger than it sounds. The dough blends wheat with rice and soy flours, takes a very high hydration and a long cold ferment, then bakes crisp outside and airy inside. Did you know? Sellers link the name to the Latin pinsere, \"to stretch,\" and hint at Roman-legionary roots, but the modern Pinsa Romana recipe was actually trademarked in the early 2000s. Being easy on the stomach is half its appeal.",
+      "de": "Die Pinsa ist der ovale, federleichte römische Fladen, der jetzt überall ist und jünger, als er klingt. Der Teig verbindet Weizen mit Reis- und Sojamehl, nimmt eine sehr hohe Hydration und eine lange kalte Gärung, dann backt er außen knusprig und innen luftig. Gut zu wissen: Verkäufer knüpfen den Namen ans lateinische pinsere und deuten römisch-legionäre Wurzeln an, doch das moderne Rezept der Pinsa Romana wurde tatsächlich erst in den frühen 2000ern als Marke geschützt. Leicht im Magen zu sein ist die halbe Miete.",
+      "es": "La pinsa es la focaccia romana ovalada y ligerísima que hoy está por todas partes y es más joven de lo que parece. La masa mezcla trigo con harinas de arroz y soja, admite una hidratación muy alta y una larga fermentación en frío, y luego se hornea crujiente por fuera y aireada por dentro. ¿Sabías que los vendedores ligan el nombre al latín pinsere, «estirar», y apuntan a raíces en la legión romana, aunque la receta moderna de la Pinsa Romana se registró en realidad a principios de los años 2000? Que sea ligera para el estómago es la mitad de su atractivo.",
+      "fr": "La pinsa est la focaccia romaine ovale et ultralégère qu'on voit partout aujourd'hui, et plus jeune qu'elle n'en a l'air. La pâte mêle blé, riz et soja, prend un très fort taux d'hydratation et une longue fermentation à froid, puis cuit croustillante dehors, aérée dedans. Le saviez-vous ? Les vendeurs rattachent le nom au latin pinsere, « étirer », et évoquent des origines chez les légionnaires romains, mais la recette moderne de la Pinsa Romana a en fait été déposée au début des années 2000. Sa légèreté sur l'estomac fait la moitié de son attrait.",
+      "it": "La Pinsa è la focaccia romana ovale e leggerissima, oggi ovunque e più giovane di quanto il nome lasci pensare. L'impasto mette insieme grano con farine di riso e soia, prende un'idratazione molto alta e una lunga lievitazione a freddo, poi cuoce croccante fuori e ariosa dentro. Una nota: i venditori legano il nome al latino pinsere e alludono a radici tra i legionari, ma la Pinsa Romana come la conosciamo è un marchio registrato nei primi anni 2000. Leggera sullo stomaco, ed è metà del suo fascino."
+    },
+    "url": "https://openpizzamap.com/style/pinsa"
   },
   {
     "slug": "pizza-fritta",
     "name": "Pizza Fritta",
-    "description": "Naples street pizza fried, not baked: the dough folded or stuffed and blistered in hot oil. Where to eat pizza fritta, ranked by taste."
+    "description": "Naples street pizza fried, not baked: the dough folded or stuffed and blistered in hot oil. Where to eat pizza fritta, ranked by taste.",
+    "names": {
+      "en": "Pizza Fritta"
+    },
+    "definitions": {
+      "en": "Pizza fritta is Naples' fried answer to the oven. The dough is stuffed with ricotta, cicoli, provola and a little tomato, sealed, and dropped into hot oil until it puffs gold. It is street food first: handheld, hot, eaten from paper. Did you know? It spread in the lean years after the Second World War, when wood and ovens were scarce and frying was cheaper, a scene immortalized by Sophia Loren in the film L'Oro di Napoli. It shares its roots with classic Neapolitan pizza.",
+      "de": "Pizza fritta ist Neapels frittierte Antwort auf den Ofen. Der Teig wird mit Ricotta, Cicoli, Provola und etwas Tomate gefüllt, verschlossen und in heißes Öl gegeben, bis er goldgelb aufgeht. Es ist zuerst Streetfood: in der Hand, heiß, aus dem Papier gegessen. Gut zu wissen: Sie verbreitete sich in den mageren Jahren nach dem Zweiten Weltkrieg, als Holz und Öfen knapp waren und Frittieren billiger war, eine Szene, die Sophia Loren im Film L'Oro di Napoli verewigte. Sie teilt ihre Wurzeln mit der klassischen neapolitanischen Pizza.",
+      "es": "La pizza fritta es la respuesta frita de Nápoles al horno. La masa se rellena de ricotta, cicoli, provola y algo de tomate, se sella y se echa en aceite caliente hasta que se hincha y se dora. Es comida de calle ante todo: en la mano, caliente, directa del papel. ¿Sabías que se extendió en los años de escasez tras la Segunda Guerra Mundial, cuando la leña y los hornos escaseaban y freír salía más barato, una escena que Sophia Loren inmortalizó en la película L'Oro di Napoli? Comparte raíces con la napolitana clásica.",
+      "fr": "La pizza fritta, c'est la réponse frite de Naples au four. La pâte est fourrée de ricotta, de cicoli, de provola et d'un peu de tomate, scellée, puis plongée dans l'huile chaude jusqu'à ce qu'elle gonfle et dore. C'est d'abord une nourriture de rue : tenue à la main, chaude, mangée dans du papier. Le saviez-vous ? Elle s'est répandue dans les années maigres de l'après-guerre, quand le bois et les fours manquaient et que la friture coûtait moins cher, une scène qu'a immortalisée Sophia Loren dans le film L'Oro di Napoli. Elle partage ses racines avec la napolitaine classique.",
+      "it": "La pizza fritta è la risposta fritta di Napoli al forno. L'impasto si farcisce con ricotta, cicoli, provola e un po' di pomodoro, si sigilla e si cala nell'olio caldo finché si gonfia dorato. È cibo di strada prima di tutto: in mano, caldo, dalla carta. Una nota: si diffuse negli anni magri del dopoguerra, quando legna e forni scarseggiavano e friggere costava meno, una scena che Sophia Loren ha reso indimenticabile ne L'Oro di Napoli. Divide le radici con la classica napoletana."
+    },
+    "url": "https://openpizzamap.com/style/pizza-fritta"
   },
   {
     "slug": "ny",
     "name": "New York-Style",
-    "description": "Wide, thin, foldable slices from a hot gas deck oven, built on high-gluten dough. Where to eat New York-style pizza, ranked by taste."
+    "description": "Wide, thin, foldable slices from a hot gas deck oven, built on high-gluten dough. Where to eat New York-style pizza, ranked by taste.",
+    "names": {
+      "en": "New York-Style",
+      "de": "New York Style",
+      "es": "New York",
+      "fr": "New York",
+      "it": "Stile New York"
+    },
+    "definitions": {
+      "en": "New York-style pizza is the slice that built a city's lunch habit: wide, thin, hand-tossed and foldable, baked in a hot deck oven until the underside is spotted and pliable. It descends from Neapolitan, stretched larger, dried a little, and taught to be eaten with one hand on the walk. Did you know? Lombardi's opened in 1905 and is recognized as the first licensed pizzeria in the United States, and many New Yorkers swear the city's tap water is the dough's secret ingredient. A faintly sweet tomato and low-moisture mozzarella are the baseline; the corner-slice shop is the institution.",
+      "de": "Die New-York-Pizza ist die Scheibe, die den Mittagshunger einer Stadt geprägt hat: breit, dünn, von Hand geworfen und faltbar, im heißen Etagenofen gebacken, bis die Unterseite gefleckt und biegsam ist. Sie stammt von der neapolitanischen ab, größer gezogen, etwas trockener und darauf getrimmt, im Gehen aus einer Hand gegessen zu werden. Gut zu wissen: Lombardi's öffnete 1905 und gilt als erste lizenzierte Pizzeria der USA, und viele New Yorker schwören, das Leitungswasser der Stadt sei die Geheimzutat des Teigs. Eine leicht süße Tomate und Mozzarella mit wenig Feuchtigkeit sind die Basis; der Eck-Slice-Laden ist die Institution.",
+      "es": "La pizza al estilo de Nueva York es la porción que forjó el almuerzo de toda una ciudad: ancha, fina, estirada a mano y plegable, horneada en un horno de solera caliente hasta que la base queda moteada y flexible. Desciende de la napolitana, aunque se estira más grande, sale algo más seca y está pensada para comerse con una mano mientras caminas. ¿Sabías que Lombardi's abrió en 1905 y está reconocida como la primera pizzería con licencia de Estados Unidos, y que muchos neoyorquinos juran que el agua del grifo de la ciudad es el ingrediente secreto de la masa? Un tomate ligeramente dulce y una mozzarella de baja humedad forman la base; la porción de la esquina es toda una institución.",
+      "fr": "La pizza new-yorkaise, c'est la part qui a façonné le déjeuner d'une ville : large, fine, étirée à la main et pliable, cuite dans un four à sole brûlant jusqu'à ce que le dessous soit tacheté et souple. Elle descend de la napolitaine, étirée plus large, un peu séchée, et faite pour se manger d'une main en marchant. Le saviez-vous ? Lombardi's a ouvert en 1905 et passe pour la première pizzeria sous licence des États-Unis, et bien des New-Yorkais jurent que l'eau du robinet de la ville est l'ingrédient secret de la pâte. Une tomate légèrement sucrée et une mozzarella à faible humidité forment la base ; la part vendue au coin de la rue est une institution.",
+      "it": "La pizza in stile New York è il trancio che ha costruito l'abitudine del pranzo di una città: larga, sottile, stesa a mano e pieghevole, cotta in un forno a platea caldo finché il fondo è maculato e flessibile. Discende dalla napoletana, allargata, asciugata un po' e abituata a essere mangiata con una mano sola in cammino. Lo sapevi? Lombardi's aprì nel 1905 ed è riconosciuta come la prima pizzeria con licenza degli Stati Uniti, e molti newyorkesi giurano che l'acqua del rubinetto della città sia l'ingrediente segreto dell'impasto. Un pomodoro lievemente dolce e una mozzarella a bassa umidità sono la base; la pizzeria all'angolo è l'istituzione."
+    },
+    "url": "https://openpizzamap.com/style/ny"
   },
   {
     "slug": "new-haven",
     "name": "New Haven Apizza",
-    "description": "New Haven's coal-fired pies: thin, oblong, charred, and known for the white clam pie. Where to eat apizza, ranked by taste."
+    "description": "New Haven's coal-fired pies: thin, oblong, charred, and known for the white clam pie. Where to eat apizza, ranked by taste.",
+    "names": {
+      "en": "New Haven Apizza"
+    },
+    "definitions": {
+      "en": "New Haven apizza (say it \"ah-BEETS\") is Connecticut's coal-fired pizza: thin, irregular, charred hard at the edges and proud of it. The crust is dry, smoky and chewy, closer to its Neapolitan ancestor than to New York. Did you know? Frank Pepe started baking in 1925, and his white clam pie, no tomato, just clams, garlic, oregano and oil, is the thing people drive hours for.",
+      "de": "Die New Haven Apizza (gesprochen \"ah-BIITS\") ist die kohlebefeuerte Pizza aus Connecticut: dünn, unregelmäßig, an den Rändern kräftig gebräunt und stolz darauf. Die Kruste ist trocken, rauchig und zäh, näher an ihrer neapolitanischen Vorfahrin als an der New Yorker. Gut zu wissen: Frank Pepe fing 1925 an zu backen, und seine White Clam Pie, keine Tomate, nur Venusmuscheln, Knoblauch, Oregano und Öl, ist das, wofür Leute stundenlang fahren.",
+      "es": "La New Haven apizza (se dice «a-BITS») es la pizza al carbón de Connecticut: fina, irregular, muy carbonizada en los bordes y orgullosa de ello. La corteza es seca, ahumada y masticable, más cerca de su antepasada napolitana que de la neoyorquina. ¿Sabías que Frank Pepe empezó a hornear en 1925 y que su white clam pie, sin tomate, solo almejas, ajo, orégano y aceite, es aquello por lo que la gente conduce durante horas?",
+      "fr": "La New Haven apizza (prononcez « a-BITS ») est la pizza cuite au charbon du Connecticut : fine, irrégulière, fortement carbonisée sur les bords et fière de l'être. La croûte est sèche, fumée et moelleuse, plus proche de son ancêtre napolitain que de la new-yorkaise. Le saviez-vous ? Frank Pepe a commencé à cuire en 1925, et c'est pour sa white clam pie, sans tomate, juste des palourdes, de l'ail, de l'origan et de l'huile, que les gens roulent des heures.",
+      "it": "La apizza di New Haven (si dice \"ah-BIITS\") è la pizza cotta a carbone del Connecticut: sottile, irregolare, bruciacchiata forte ai bordi e fiera di esserlo. La crosta è secca, affumicata e gommosa, più vicina all'antenata napoletana che alla newyorkese. Lo sapevi? Frank Pepe iniziò a infornare nel 1925, e la sua white clam pie, niente pomodoro, solo vongole, aglio, origano e olio, è la cosa per cui la gente guida per ore."
+    },
+    "url": "https://openpizzamap.com/style/new-haven"
   },
   {
     "slug": "alla-pala",
     "name": "Pizza alla Pala",
-    "description": "Roman pizza shaped long on a wooden peel, baked on the stone: high-hydration dough, light and crisp, sold by the length."
+    "description": "Roman pizza shaped long on a wooden peel, baked on the stone: high-hydration dough, light and crisp, sold by the length.",
+    "names": {
+      "en": "Pizza alla Pala"
+    },
+    "definitions": {
+      "en": "Pizza alla pala is the Roman cousin of al taglio, baked and served on a long wooden peel, the pala, in an elongated oval. The dough is very wet and long-fermented, which gives a light, open crumb and a crust that stays crisp without turning heavy. It is sold by the length, cut to order. Did you know? The name simply means \"on the peel,\" and the long oval shape comes from stretching the dough down the baker's paddle rather than rolling it round.",
+      "de": "Pizza alla pala ist die römische Cousine der al taglio, gebacken und serviert auf einer langen Holzschaufel, der pala, in einem länglichen Oval. Der Teig ist sehr nass und lang gegärt, was eine leichte, offene Krume und eine Kruste ergibt, die knusprig bleibt, ohne schwer zu werden. Sie wird nach Länge verkauft, auf Bestellung geschnitten. Gut zu wissen: Die längliche Form entsteht, weil man den Teig auf der Bäckerschaufel auszieht, statt ihn rund zu rollen.",
+      "es": "La pizza alla pala es la prima romana de la al taglio, horneada y servida sobre una larga pala de madera, la pala, en forma de óvalo alargado. La masa es muy húmeda y de larga fermentación, lo que da una miga ligera y abierta y una corteza que se mantiene crujiente sin volverse pesada. Se vende por longitud, cortada al momento. ¿Sabías que esa forma ovalada tan alargada nace de estirar la masa a lo largo de la pala del panadero en lugar de bolearla redonda?",
+      "fr": "La pizza alla pala est la cousine romaine de l'al taglio, cuite et servie sur une longue pelle en bois, la pala, en un ovale allongé. La pâte est très humide et longuement fermentée, ce qui donne une mie légère et ouverte et une croûte qui reste croustillante sans s'alourdir. Elle se vend à la longueur, coupée à la demande. Le saviez-vous ? Le nom signifie simplement « à la pelle », et la longue forme ovale vient de l'étirement de la pâte le long de la pelle du boulanger plutôt que d'un façonnage rond.",
+      "it": "La pizza alla pala è la cugina romana della al taglio, cotta e servita su una lunga pala di legno, in un ovale allungato. L'impasto è molto idratato e a lunga lievitazione, per una mollica leggera e aperta e una crosta che resta croccante senza appesantirsi. Si vende a lunghezza, tagliata al momento. Un dettaglio: la forma ovale nasce dallo stendere l'impasto lungo la pala del fornaio invece di tirarlo tondo."
+    },
+    "url": "https://openpizzamap.com/style/alla-pala"
   },
   {
     "slug": "detroit",
     "name": "Detroit-Style",
-    "description": "Thick, airy squares baked in steel pans with cheese caramelized to a crust at the edges. Where to eat Detroit-style pizza, ranked."
+    "description": "Thick, airy squares baked in steel pans with cheese caramelized to a crust at the edges. Where to eat Detroit-style pizza, ranked.",
+    "names": {
+      "en": "Detroit-Style",
+      "de": "Detroit Style",
+      "es": "Detroit",
+      "fr": "Detroit",
+      "it": "Stile Detroit"
+    },
+    "definitions": {
+      "en": "Detroit-style pizza is the rectangular one with the crunchy, lacy edges, a square that started in the city's pizzerias and spread nationwide. It bakes in seasoned blue-steel pans with Wisconsin brick cheese pushed right to the walls, so the cheese fries into a crisp frico rim, and the sauce goes on last, in stripes across the top. The crumb underneath is thick and airy, closer to focaccia. Did you know? Those pans started life as automotive parts trays on the factory floor, and Buddy's served the first one in 1946.",
+      "de": "Die Detroit-Pizza ist die rechteckige mit den knusprigen, spitzenartigen Rändern, ein Quadrat, das in den Pizzerien der Stadt entstand und sich landesweit verbreitete. Sie backt in eingebrannten Blaustahlblechen mit Wisconsin-Brick-Käse, der bis an die Wände gedrückt wird, sodass der Käse zu einem knusprigen Frico-Rand frittiert, und die Sauce kommt zuletzt, in Streifen obenauf. Die Krume darunter ist dick und luftig, näher an Focaccia. Gut zu wissen: Diese Bleche waren ursprünglich Werkzeugschalen aus der Autoindustrie auf dem Fabrikboden, und Buddy's servierte 1946 die erste.",
+      "es": "La pizza al estilo de Detroit es la rectangular de bordes crujientes y encajados, un cuadrado que nació en las pizzerías de la ciudad y se extendió por todo el país. Se hornea en bandejas de acero azulado curadas, con queso brick de Wisconsin empujado hasta las paredes, de modo que el queso se fríe formando un borde crujiente, un frico, y la salsa se añade al final, en franjas por encima. La miga de debajo es gruesa y aireada, más cerca de la focaccia. ¿Sabías que esas bandejas empezaron siendo bandejas de piezas de automóvil en la fábrica y que Buddy's sirvió la primera en 1946?",
+      "fr": "La pizza à la façon de Detroit est la rectangulaire aux bords croustillants et dentelés, un carré né dans les pizzerias de la ville et diffusé dans tout le pays. Elle cuit dans des plaques en acier bleui culottées, avec du fromage brick du Wisconsin poussé jusqu'aux parois, si bien que le fromage frit forme un liseré croustillant, un frico, et la sauce se dépose en dernier, en bandes sur le dessus. La mie en dessous est épaisse et aérée, plus proche de la focaccia. Le saviez-vous ? Ces plaques ont d'abord servi de bacs à pièces automobiles à l'usine, et Buddy's a servi la première en 1946.",
+      "it": "La pizza in stile Detroit è quella rettangolare con i bordi croccanti e merlettati, un quadrato nato nelle pizzerie della città e diffuso in tutto il paese. Cuoce in teglie di acciaio blu stagionate con formaggio brick del Wisconsin spinto fino alle pareti, così il formaggio frigge in un bordo croccante di frico, e la salsa va per ultima, a strisce sulla superficie. La mollica sotto è spessa e ariosa, più vicina alla focaccia. Lo sapevi? Quelle teglie nascono come vassoi per pezzi d'auto sul pavimento della fabbrica, e Buddy's servì la prima nel 1946."
+    },
+    "url": "https://openpizzamap.com/style/detroit"
   },
   {
     "slug": "chicago",
     "name": "Chicago Deep-Dish",
-    "description": "A deep, buttery crust layered cheese-first with sauce on top, baked long and cut thick. Where to eat Chicago deep-dish, ranked."
+    "description": "A deep, buttery crust layered cheese-first with sauce on top, baked long and cut thick. Where to eat Chicago deep-dish, ranked.",
+    "names": {
+      "en": "Chicago Deep-Dish"
+    },
+    "definitions": {
+      "en": "Chicago deep-dish turns pizza into something you eat with a knife and fork. Built in a high-edged pan, it stacks in reverse: cheese on the dough, fillings next, and a layer of crushed tomato on top so the long bake does not scorch it. The crust is part pastry, buttery and tall enough to hold the whole thing together. Did you know? Most accounts credit Pizzeria Uno in 1943 as its birthplace, and locals are quick to add that the thin, square-cut tavern style is what Chicagoans actually eat most.",
+      "de": "Chicago Deep-Dish macht aus Pizza etwas, das man mit Messer und Gabel isst. In einer hochwandigen Form gebaut, schichtet sie umgekehrt: Käse auf den Teig, dann die Füllung und obenauf eine Lage zerdrückter Tomaten, damit der lange Backvorgang sie nicht verbrennt. Die Kruste ist halb Mürbeteig, buttrig und hoch genug, um das Ganze zusammenzuhalten. Gut zu wissen: Die meisten Berichte nennen Pizzeria Uno 1943 als Geburtsort, und Einheimische fügen schnell hinzu, dass die dünne, quadratisch geschnittene Tavern-Style das ist, was Chicagoer wirklich am meisten essen.",
+      "es": "La Chicago deep-dish convierte la pizza en algo que se come con cuchillo y tenedor. Montada en un molde de bordes altos, se apila al revés: el queso sobre la masa, los rellenos después y una capa de tomate triturado por encima para que el largo horneado no lo queme. La corteza tira a repostería, mantecosa y lo bastante alta para sostener todo el conjunto. ¿Sabías que la mayoría de los relatos atribuyen su nacimiento a Pizzeria Uno en 1943, aunque los locales se apresuran a aclarar que es la tavern style, fina y cortada en cuadrados, la que más comen en Chicago?",
+      "fr": "La Chicago deep-dish transforme la pizza en un plat qui se mange au couteau et à la fourchette. Montée dans un moule à bords hauts, elle s'empile à l'envers : le fromage sur la pâte, les garnitures ensuite, puis une couche de tomate concassée sur le dessus pour que la longue cuisson ne la brûle pas. La croûte tient de la pâtisserie, beurrée et assez haute pour maintenir l'ensemble. Le saviez-vous ? La plupart des récits attribuent sa naissance à Pizzeria Uno en 1943, et les habitants ajoutent vite que c'est la tavern style, fine et coupée en carrés, que Chicago mange le plus.",
+      "it": "La Chicago deep-dish trasforma la pizza in qualcosa che si mangia con coltello e forchetta. Costruita in una teglia dai bordi alti, si stratifica al contrario: formaggio sull'impasto, poi il ripieno, e uno strato di pomodoro a pezzi in cima, così la lunga cottura non lo brucia. La crosta è in parte pasta frolla, burrosa e abbastanza alta da tenere insieme il tutto. Lo sapevi? La maggior parte dei racconti indica Pizzeria Uno nel 1943 come luogo di nascita, e la gente del posto si affretta ad aggiungere che è la tavern style, sottile e tagliata a quadretti, quella che i chicagoani mangiano davvero di più."
+    },
+    "url": "https://openpizzamap.com/style/chicago"
   },
   {
     "slug": "sicilian",
     "name": "Sicilian",
-    "description": "Thick, airy rectangular pizza with roots in Palermo's sfincione, baked in an oiled pan. Where to eat Sicilian-style pizza, ranked."
+    "description": "Thick, airy rectangular pizza with roots in Palermo's sfincione, baked in an oiled pan. Where to eat Sicilian-style pizza, ranked.",
+    "names": {
+      "en": "Sicilian",
+      "de": "Siciliana",
+      "es": "Siciliana",
+      "fr": "Siciliana",
+      "it": "Siciliana"
+    },
+    "definitions": {
+      "en": "Sicilian pizza is thick, square and built for the bakery, not the pizzeria. Its roots are in sfincione, a spongy Palermo flatbread topped with onion, breadcrumb, a little anchovy and caciocavallo rather than mozzarella. The modern square slice keeps the airy, well-risen base and the generous hand. Did you know? Sfincione traditionally turns up around the Sicilian holidays, and its name traces to a Latin word for \"sponge.\" It is also a direct ancestor of American Detroit-style and grandma pies.",
+      "de": "Die sizilianische Pizza ist dick, quadratisch und für die Bäckerei gemacht, nicht für die Pizzeria. Ihre Wurzeln liegen im sfincione, einem lockeren Fladen aus Palermo mit Zwiebeln, Semmelbröseln, etwas Sardelle und Caciocavallo statt Mozzarella. Die moderne quadratische Scheibe behält die luftige, gut aufgegangene Basis und die großzügige Hand. Gut zu wissen: Der sfincione ist auch ein direkter Vorfahr des amerikanischen Detroit-Style und der Grandma Pies.",
+      "es": "La pizza siciliana es gruesa, cuadrada y pensada para la panadería, no para la pizzería. Sus raíces están en el sfincione, una focaccia esponjosa de Palermo cubierta de cebolla, pan rallado, algo de anchoa y caciocavallo en lugar de mozzarella. La porción cuadrada moderna conserva esa base aireada y bien fermentada, y la mano generosa con los ingredientes. ¿Sabías que el sfincione aparece tradicionalmente en torno a las fiestas sicilianas y que su nombre procede de una palabra latina que significa «esponja»? Es, además, antepasado directo de la pizza de Detroit estadounidense y de las grandma pies.",
+      "fr": "La pizza sicilienne est épaisse, carrée, faite pour la boulangerie plutôt que pour la pizzeria. Ses racines plongent dans le sfincione, une focaccia spongieuse de Palerme garnie d'oignon, de chapelure, d'un peu d'anchois et de caciocavallo plutôt que de mozzarella. La part carrée moderne garde la base aérée, bien levée, et ne lésine pas sur la garniture. Le saviez-vous ? Le sfincione apparaît traditionnellement autour des fêtes siciliennes, et son nom remonte à un mot latin signifiant « éponge ». Il est aussi l'ancêtre direct de la pizza de Detroit américaine et des grandma pies.",
+      "it": "La pizza siciliana è spessa, quadrata e nasce dal forno di panetteria più che dalla pizzeria. Le radici sono nello sfincione, la soffice focaccia di Palermo con cipolla, pangrattato, un po' di acciuga e caciocavallo al posto della mozzarella. La fetta quadrata di oggi ne tiene la base ariosa e ben lievitata e la mano generosa. Una curiosità: lo sfincione è anche un antenato diretto dello stile Detroit americano e delle grandma pie d'oltreoceano."
+    },
+    "url": "https://openpizzamap.com/style/sicilian"
   },
   {
     "slug": "padellino",
     "name": "Pizza al Padellino",
-    "description": "Turin's small round pan pizza: thick, soft, and light with a fried-crisp base. Where to eat pizza al padellino, ranked by taste."
+    "description": "Turin's small round pan pizza: thick, soft, and light with a fried-crisp base. Where to eat pizza al padellino, ranked by taste.",
+    "names": {
+      "en": "Pizza al Padellino"
+    },
+    "definitions": {
+      "en": "Pizza al padellino, also called al tegamino, is Turin's small, personal pan pizza. Baked one to a little round dish, it comes out thick and soft in the middle with a bottom fried crisp by the oiled pan. It is a sit-down dish, ordered by the person rather than shared. Did you know? It is a Piedmontese habit more than a national one, and many Turin cafés pour it as an early-evening aperitivo plate.",
+      "de": "Pizza al padellino, auch al tegamino, ist die kleine, persönliche Pfannenpizza aus Turin. Eine pro rundem Pfännchen, kommt sie dick und in der Mitte weich heraus, mit einem Boden, den die gefettete Pfanne knusprig brät. Es ist ein Sitzgericht, pro Person bestellt statt geteilt. Gut zu wissen: Es ist eher eine piemontesische als eine landesweite Gewohnheit, und viele Turiner Cafés reichen sie als Aperitivo-Teller am frühen Abend.",
+      "es": "La pizza al padellino, también llamada al tegamino, es la pizza de molde individual y pequeña de Turín. Se hornea de una en una en un molde redondo pequeño, así que sale gruesa y suave en el centro, con un fondo frito y crujiente gracias al molde aceitado. Es un plato de mesa, que se pide por persona en lugar de compartirse. ¿Sabías que es una costumbre piamontesa más que nacional y que muchos cafés de Turín la sirven como aperitivo a primera hora de la tarde?",
+      "fr": "La pizza al padellino, aussi appelée al tegamino, est la petite pizza en moule individuelle de Turin. Cuite une à une dans un petit plat rond, elle sort épaisse et moelleuse au centre, avec un dessous frit et croustillant par le moule huilé. C'est un plat qu'on mange à table, commandé par personne plutôt que partagé. Le saviez-vous ? C'est une habitude piémontaise plus que nationale, et bien des cafés turinois la servent en assiette d'apéritif en début de soirée.",
+      "it": "La pizza al padellino, o al tegamino, è la piccola pizza in teglia personale di Torino. Una per ogni pentolino, esce spessa e morbida al centro con il fondo reso croccante dalla teglia unta. Si ordina a persona, non si divide. Per inciso: è più piemontese che nazionale, e molti caffè torinesi la servono come piatto dell'aperitivo di prima serata."
+    },
+    "url": "https://openpizzamap.com/style/padellino"
   },
   {
     "slug": "argentine",
     "name": "Argentine",
-    "description": "Buenos Aires made pizza its own: thick media masa piled with muzzarella, onion-stuffed fugazzeta, and chickpea fainá stacked on the slice."
+    "description": "Buenos Aires made pizza its own: thick media masa piled with muzzarella, onion-stuffed fugazzeta, and chickpea fainá stacked on the slice.",
+    "names": {
+      "en": "Argentine",
+      "de": "Argentinische Pizza",
+      "es": "Argentina",
+      "fr": "Argentine",
+      "it": "Argentina"
+    },
+    "definitions": {
+      "en": "Argentine pizza is its own thing, built in Buenos Aires by Genoese and Neapolitan immigrants who loaded cow's-milk muzzarella far past anything Naples would recognize. The house style is media masa, a thick, spongy crust baked in a pan (al molde), though the city also fires a thinner a la piedra on the oven floor. Then the local inventions: fugazzeta, mozzarella sealed between two rounds of dough under a heap of onions, credited to the Banchero family in La Boca; and fainá, a chickpea flatbread descended from Ligurian farinata, laid straight on a hot slice (a caballo). One more trap for visitors: pizza napolitana here is not the Naples original but a muzzarella pie under fresh tomato and garlic. Did you know? The classic Avenida Corrientes counter order is a slice of muzza, a slice of fainá, and a glass of sweet moscato."
+    },
+    "url": "https://openpizzamap.com/style/argentine"
   }
 ]

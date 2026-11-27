@@ -27,7 +27,11 @@ The [`demo/`](demo/) folder carries its own MIT license at [`demo/LICENSE`](demo
 The demo's pizza marker (`demo/marker-pizza.svg`) is from Google Noto Emoji (Apache-2.0).
 Third-party attributions are in [`demo/NOTICE.md`](demo/NOTICE.md).
 
+## Code: MIT
+
+The [`lib/`](lib/) and [`test/`](test/) folders are MIT, see [`lib/LICENSE`](lib/LICENSE).
+
 ## Not covered
 
-The OpenPizzaMap website source code is not in this repository and is not covered by any of
-these licenses.
+The rest of the OpenPizzaMap website source code is not in this repository and is not covered
+by any of these licenses.

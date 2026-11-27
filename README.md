@@ -14,7 +14,7 @@ The dataset is rebuilt from the live map every week.
 |---|---|
 | [`data/openpizzamap-pizzerias.csv`](data/openpizzamap-pizzerias.csv) | One row per pizzeria |
 | [`data/openpizzamap-pizzerias.geojson`](data/openpizzamap-pizzerias.geojson) | The same rows as map points |
-| [`data/pizza-styles.json`](data/pizza-styles.json) | The pizza styles used in the `styles` column |
+| [`data/pizza-styles.json`](data/pizza-styles.json) | The pizza styles used in the `styles` column, with names and plain-text definitions in English, Spanish, Italian, German and French |
 
 Each pizzeria has a stable `id`, name, address, postal code, coordinates, city, region,
 country, pizza styles, price level, service options, opening hours, phone, the venue's own
@@ -32,7 +32,8 @@ under the ODbL. Documentation is CC-BY-4.0, the demo code is MIT. See
 
 ## Help fix it
 
-- **Something wrong?** Closed, moved, duplicate, wrong style, not a pizzeria: open a
+- **Something wrong?** Closed, moved, duplicate, wrong style, not a pizzeria: tap
+  **Suggest an edit** on the place page, or open a
   [Report bad data](https://github.com/elehmanndev/openpizzamap_public/issues/new?template=report-bad-data.md)
   issue with the place URL or its `id`.
 - **Missing a pizzeria?** Use [openpizzamap.com/add-your-spot](https://openpizzamap.com/add-your-spot)
@@ -42,6 +43,14 @@ Every fix goes through OpenPizzaMap: it lands on the live map first and reaches 
 dataset in the next weekly build.
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Code
+
+[`lib/`](lib/) publishes two pieces of the site code under MIT: the
+[OpenPizzaMap rating](lib/opm-rating.js) that produces `opm_rating`, and the
+[dough calculator engine](lib/dough/) behind
+[openpizzamap.com/tools/dough-calculator](https://openpizzamap.com/tools/dough-calculator).
+See [`lib/README.md`](lib/README.md) and [`docs/DOUGH-MATH.md`](docs/DOUGH-MATH.md).
+
 ## Demo
 
 [`demo/`](demo/) is a static map and filterable directory that reads the dataset straight
@@ -50,4 +59,4 @@ from this repo. No backend, no build step.
 ## Credits
 
 Map tiles on the site and the demo: map data © OpenStreetMap contributors (ODbL), tiles ©
-CARTO. The site's source code is not part of this repository.
+CARTO. Apart from `lib/`, the site's source code is not part of this repository.
