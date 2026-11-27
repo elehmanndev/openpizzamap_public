@@ -32,6 +32,19 @@ become feature properties.
 | `facebook` | string (URL) | `https://www.facebook.com/pizzartetirana/` | The venue's Facebook page. May be empty. |
 | `url` | string (URL) | `https://openpizzamap.com/place/1704/pizzarte-tirana` | The pizzeria's page on openpizzamap.com. Use this as the attribution link back to the specific place. |
 
+## `pizza-styles.json`
+
+One object per style, in display order.
+
+| Field | Type | Example | Meaning |
+|---|---|---|---|
+| `slug` | string | `neapolitan` | The id used in the `styles` column. |
+| `name` | string | `Neapolitan` | English name. |
+| `description` | string | | One-line summary. |
+| `names` | object | `{"en": "Neapolitan", "it": "Napoletana"}` | Name per language (`en`, `es`, `it`, `de`, `fr`). A language is missing when the English name is used there too. |
+| `definitions` | object | `{"en": "Neapolitan pizza is where it all began..."}` | What the style is, as plain text, per language. Empty when not written yet. |
+| `url` | string (URL) | `https://openpizzamap.com/style/neapolitan` | The style's page on openpizzamap.com. |
+
 ## What is deliberately not included, and why
 
 The dataset is the curated *result*, published as factual information about public businesses.

@@ -14,7 +14,7 @@ The dataset is rebuilt from the live map every week.
 |---|---|
 | [`data/openpizzamap-pizzerias.csv`](data/openpizzamap-pizzerias.csv) | One row per pizzeria |
 | [`data/openpizzamap-pizzerias.geojson`](data/openpizzamap-pizzerias.geojson) | The same rows as map points |
-| [`data/pizza-styles.json`](data/pizza-styles.json) | The pizza styles used in the `styles` column |
+| [`data/pizza-styles.json`](data/pizza-styles.json) | The pizza styles used in the `styles` column, with names and plain-text definitions in English, Spanish, Italian, German and French |
 
 Each pizzeria has a stable `id`, name, address, postal code, coordinates, city, region,
 country, pizza styles, price level, service options, opening hours, phone, the venue's own
