@@ -1,57 +1,55 @@
 # OpenPizzaMap Open Data
 
-A community-curated map of pizzerias worth traveling for, at
-[openpizzamap.com](https://openpizzamap.com). This repository is the project's open,
-public face: the curated dataset, the documentation, and the place to suggest spots or
-report bad data.
+The open dataset behind [openpizzamap.com](https://openpizzamap.com), a community map of
+pizzerias worth traveling for. We aggregate pizzerias and their public ratings from
+different sources, plus suggestions from the community, then add our own layer: which
+places are real pizzerias, which pizza style they bake, and the OpenPizzaMap community
+rating. This repo publishes that result so anyone can reuse it, check it, and help fix it.
 
-Every pizzeria on the map is hand-picked and checked before it appears. This repo publishes
-the *result* of that curation as an open dataset, free to reuse under CC-BY-4.0.
+The dataset is rebuilt from the live map every week.
 
 ## The dataset
 
-[`data/openpizzamap-pizzerias.csv`](data/openpizzamap-pizzerias.csv) and
-[`data/openpizzamap-pizzerias.geojson`](data/openpizzamap-pizzerias.geojson): 3607
-curated pizzerias with name, address, coordinates, city, region, country, pizza style,
-price level, service options, the OpenPizzaMap rating, the venue's own links, and a link to
-its page on openpizzamap.com.
+| File | What it holds |
+|---|---|
+| [`data/openpizzamap-pizzerias.csv`](data/openpizzamap-pizzerias.csv) | One row per pizzeria |
+| [`data/openpizzamap-pizzerias.geojson`](data/openpizzamap-pizzerias.geojson) | The same rows as map points |
+| [`data/pizza-styles.json`](data/pizza-styles.json) | The pizza styles used in the `styles` column |
 
-See [`docs/DATA-DICTIONARY.md`](docs/DATA-DICTIONARY.md) for every column, and
-[`docs/METHODOLOGY.md`](docs/METHODOLOGY.md) for how places are chosen and rated.
-
-## How to use it
-
-Free to use, share, and adapt under CC-BY-4.0. The one requirement is attribution: credit
-"OpenPizzaMap (openpizzamap.com)" and, where practical, link back to the site or the
-specific pizzeria's page (the `url` column).
-
-## What's here and what isn't
-
-This repo holds the curated dataset, docs, and community submissions. It does not hold the
-website's source code, which stays private. The dataset covers factual information about each
-pizzeria (including its address and coordinates), but deliberately excludes third-party
-content: no aggregator ratings, reviews, review counts, photos, or place identifiers. See the
-data dictionary for the full column list and the reasoning.
-
-## OpenStreetMap and credits
-
-The interactive map (on the site and in this repo's [`demo/`](demo/)) is rendered on
-OpenStreetMap data, served as CARTO basemap tiles. OpenPizzaMap has also used the Overpass
-API to cross-check and fill curated pizzerias' metadata against OpenStreetMap where coverage
-allows; it does not bulk-import places from OpenStreetMap. The dataset's coordinates and
-addresses are independently sourced and are not derived from OpenStreetMap.
-
-Map data © OpenStreetMap contributors (ODbL). Basemap tiles © CARTO.
-
-## Contribute
-
-- Suggest a pizzeria: [openpizzamap.com/add-your-spot](https://openpizzamap.com/add-your-spot)
-  or open an issue with the template.
-- Report bad data (closed, wrong details, not actually a pizzeria): open an issue.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+Each pizzeria has a stable `id`, name, address, postal code, coordinates, city, region,
+country, pizza styles, price level, service options, opening hours, phone, the venue's own
+links, the OpenPizzaMap community rating, and its page on openpizzamap.com. See
+[`docs/DATA-DICTIONARY.md`](docs/DATA-DICTIONARY.md) for every column and
+[`docs/METHODOLOGY.md`](docs/METHODOLOGY.md) for how places get in and how they are rated.
 
 ## License
 
-- **Data** (`/data`): CC-BY-4.0. See [LICENSE](LICENSE) and [LICENSE-NOTE.md](LICENSE-NOTE.md).
-- Attribution: OpenPizzaMap, https://openpizzamap.com
+The data is licensed under the [Open Database License (ODbL) 1.0](LICENSE), the same
+license OpenStreetMap uses. You can use, share and adapt it, including commercially, as long
+as you credit **OpenPizzaMap (https://openpizzamap.com)** and share any adapted database
+under the ODbL. Documentation is CC-BY-4.0, the demo code is MIT. See
+[LICENSE-NOTE.md](LICENSE-NOTE.md).
+
+## Help fix it
+
+- **Something wrong?** Closed, moved, duplicate, wrong style, not a pizzeria: open a
+  [Report bad data](https://github.com/elehmanndev/openpizzamap_public/issues/new?template=report-bad-data.md)
+  issue with the place URL or its `id`.
+- **Missing a pizzeria?** Use [openpizzamap.com/add-your-spot](https://openpizzamap.com/add-your-spot)
+  or open a [Suggest a spot](https://github.com/elehmanndev/openpizzamap_public/issues/new?template=suggest-a-spot.md) issue.
+- **Mapping on OpenStreetMap?** Many of our pizzerias are missing from OSM or lack
+  `cuisine=pizza`. We are preparing MapRoulette challenges so mappers can check them with
+  their usual sources.
+
+Fixes land on the live map first and reach this dataset in the next weekly build.
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Demo
+
+[`demo/`](demo/) is a static map and filterable directory that reads the dataset straight
+from this repo. No backend, no build step.
+
+## Credits
+
+Map tiles on the site and the demo: map data © OpenStreetMap contributors (ODbL), tiles ©
+CARTO. The site's source code is not part of this repository.

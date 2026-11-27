@@ -59,38 +59,34 @@ OPM rating, is what we build from all of them.
 
 ## How the OPM rating works
 
-The OPM rating lives on the same 0 to 5 scale as every public star average, so you never have
-to do mental math to compare them. But it isn't a plain average. It's a weighted blend, made
-to be hard to game. Three simple rules do the work:
+On openpizzamap.com, each place page shows the public Google, TripAdvisor and Yelp stars
+next to our own score. The open dataset carries only the part that is ours: the OPM
+community rating, built from OpenPizzaMap member reviews alone. It lives on the same 0 to 5
+scale as every public star average. Two rules shape it:
 
-- **Community reviews count for more than any single stranger's.** A review from a pizza lover
-  who scored all four categories carries more weight than one anonymous aggregator star,
-  because it carries more signal.
-- **Sheer volume can't bully the score.** We cap how much any one source's review count can
-  push the rating. A pizzeria with thirty thousand Google reviews can't steamroll a place with
-  two hundred honest ones. That's the Da Michele rule made real: nobody gets lowered, but
-  volume stops drowning everyone else out.
-- **An unproven place stays modest, instead of faking a 5.0.** One glowing review shouldn't
-  mint a perfect score. Until a place has earned enough real opinions, its rating sits closer
-  to the middle of the pack, so the spots at the top are the ones that actually earned it.
+- **An unproven place stays modest.** The score starts from a neutral prior of 3.5, worth
+  ten reviews. One glowing review moves it a little, not to a perfect 5.0. The more
+  members review a place, the more the score becomes theirs.
+- **Each review is the average of the four scores.** Pizza, setting, service and value each
+  count once, so a great pie in a cramped room still lands where it should.
 
-The result is a number that rewards depth over noise. When a place has real community reviews,
-the OPM rating reflects them. When it doesn't yet, it leans on the public stars but won't
-pretend a thin handful of reviews is a verdict.
+A place with no community review yet has an empty `opm_rating` in the dataset, and
+`opm_review_count` tells you how many reviews sit behind every number.
 
 ## What keeps the map honest
 
-**Every place is checked before it appears.** Submissions from the community don't go live
-automatically. A real person looks at each one, checks it isn't already on the map, and only
-then publishes it. That's slower than letting the world pour in unchecked, and it's the point.
+**Community suggestions are checked before they appear.** A suggestion from a visitor doesn't
+go live automatically. A real person looks at each one, checks it isn't already on the map,
+and only then publishes it. That's slower than letting the world pour in unchecked, and it's the point.
 
 **Owners can't edit their own rating.** There is no "claim this business" button that lets a
 restaurant tune its own stars, bury a bad review, or pay to rank. Owner-editing is off by
 design. The rating belongs to the people who ate there, not to the people who own the oven.
 
-**Hand-picked, not crawled.** We don't bulk-import every dot from open map data. Every
-pizzeria here was either drawn from a source we trust or suggested by a pizza lover and checked
-before it landed. A curated map is smaller than an exhaustive one. It's also worth opening.
+**Where places come from.** We aggregate pizzerias and their public ratings from different
+sources, plus suggestions from the community. Only pizza places make the cut: anything where
+pizza is a side item stays off the map, and so do industrial chains. When a place closes or
+turns out not to be a pizzeria, it comes off the map.
 
 None of this makes us the last word: the public stars are right there next to ours, and you're
 free to trust whichever you like. We just think the people who learn the name of the pizzaiolo

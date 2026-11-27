@@ -1,37 +1,33 @@
 # License note
 
-This repository draws a clear line between data and code.
+## Data: ODbL 1.0
 
-## What the LICENSE covers
+The files under [`/data`](data/) are made available under the
+[Open Database License (ODbL) 1.0](LICENSE). Individual contents of the database are made
+available under the same terms.
 
-The repository [`LICENSE`](LICENSE) (CC-BY-4.0) covers the **dataset** (the files under
-`/data`) and the **documentation** in this repository. You are free to use, share, and adapt
-them, provided you give attribution.
+Attribution: **OpenPizzaMap (https://openpizzamap.com)**. Where practical, link to the site
+or to the specific pizzeria's page (the `url` column).
 
-Attribution string: **OpenPizzaMap (https://openpizzamap.com)**. Where practical, link back to
-the site or to the specific pizzeria's page (the `url` column in the dataset).
+If you publish an adapted version of the database, it must also be under the ODbL. Maps,
+apps and charts built from the data (a "produced work") can use any license, as long as they
+carry the attribution above.
 
-## What the LICENSE does not cover
+Releases up to and including v1.0.0 (2026-07-05) were published under CC-BY-4.0, and those
+copies keep that license. From v2.0.0 on, the data is ODbL.
 
-The OpenPizzaMap website source code is **not part of this repository and is not covered** by
-this license. It stays private. This repository is the project's open data and documentation,
-not its application code.
+## Documentation: CC-BY-4.0
 
-## Demo or example code
+The files under [`/docs`](docs/), the README and this note are licensed under
+[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/), with the same attribution.
 
-The [`demo/`](demo/) folder ships a small standalone map + directory explorer that loads the
-dataset in the browser. That code carries its **own MIT license** at [`demo/LICENSE`](demo/LICENSE),
-separate from the CC-BY-4.0 that covers the data and docs. The demo is code (MIT); the data it
-reads is CC-BY-4.0. Check the folder's LICENSE before reusing any code.
+## Demo code: MIT
 
-The demo's pizza marker (`demo/marker-pizza.svg`) is from the Google Noto Emoji project
-(Apache-2.0), not MIT. Third-party attributions for the demo are listed in
-[`demo/NOTICE.md`](demo/NOTICE.md).
+The [`demo/`](demo/) folder carries its own MIT license at [`demo/LICENSE`](demo/LICENSE).
+The demo's pizza marker (`demo/marker-pizza.svg`) is from Google Noto Emoji (Apache-2.0).
+Third-party attributions are in [`demo/NOTICE.md`](demo/NOTICE.md).
 
-## OpenStreetMap
+## Not covered
 
-The map basemap (on openpizzamap.com and in [`demo/`](demo/)) uses OpenStreetMap data,
-served as CARTO tiles: map data © OpenStreetMap contributors, licensed under the Open
-Database License (ODbL). This dataset's coordinates and addresses are independently sourced
-and are not derived from OpenStreetMap, so the dataset is offered under CC-BY-4.0 rather than
-ODbL.
+The OpenPizzaMap website source code is not in this repository and is not covered by any of
+these licenses.
