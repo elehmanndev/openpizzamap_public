@@ -101,7 +101,7 @@ function popupHtml(f) {
     .map((s) => `<span class="pp-chip">${esc(styleLabel(s))}</span>`)
     .join('');
   const place = esc([p.city, p.country].filter(Boolean).join(', '));
-  const rating = p.opm_rating != null && p.opm_rating !== '' ? esc(p.opm_rating) : '—';
+  const rating = p.opm_rating != null && p.opm_rating !== '' ? esc(p.opm_rating) : 'not yet rated';
   const link = p.url
     ? `<a class="pp-link" href="${esc(p.url)}" target="_blank" rel="noopener">View on OpenPizzaMap</a>`
     : '';
@@ -182,7 +182,7 @@ function render() {
     nextMarkers.push(e.marker);
 
     const p = f.properties;
-    const styles = featureStyles(f).map(styleLabel).join(', ') || '—';
+    const styles = featureStyles(f).map(styleLabel).join(', ') || 'no style yet';
     const li = document.createElement('li');
     li.className = 'result';
     li.innerHTML = `<button type="button" class="result-name">${esc(p.name)}</button>

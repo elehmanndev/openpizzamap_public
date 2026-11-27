@@ -1,11 +1,12 @@
 # Data dictionary
 
-Every column in [`data/openpizzamap-pizzerias.csv`](../data/openpizzamap-pizzerias.csv). The
+Every column, in order, in [`data/openpizzamap-pizzerias.csv`](../data/openpizzamap-pizzerias.csv). The
 GeoJSON file carries the same fields: `lat` and `lng` become the geometry, and the rest
 become feature properties.
 
 | Column | Type | Example | Meaning |
 |---|---|---|---|
+| `id` | integer | `42` | Stable OpenPizzaMap place id. Use it to join releases and to report issues. Never reused. |
 | `name` | string | `PizzArte` | The pizzeria's name. |
 | `address` | string | `Webster's Yard, AI` | Street address. May be empty when only a locality is known. |
 | `city` | string | `Tirana` | City or town. |
@@ -14,14 +15,18 @@ become feature properties.
 | `country` | string | `Albania` | Country. |
 | `lat` | number | `41.3289166` | Latitude in decimal degrees (WGS84). |
 | `lng` | number | `19.8234297` | Longitude in decimal degrees (WGS84). |
-| `styles` | string | `neapolitan` | Pizza style(s) for the place (e.g. neapolitan, contemporanea, roman). |
+| `styles` | string | `neapolitan,contemporanea` | Comma-separated pizza style slugs, see `data/pizza-styles.json`. Empty when not yet classified. |
 | `price_level` | integer | `2` | Relative price band, 1 (least expensive) to 4 (most expensive). May be empty when unknown. |
 | `dine_in` | boolean | `true` | Whether the place offers dine-in seating. |
 | `takeaway` | boolean | `true` | Whether the place offers takeaway. |
 | `delivery` | boolean | `false` | Whether the place offers delivery. |
 | `reservations` | boolean | `false` | Whether the place accepts reservations. |
 | `outdoor_seating` | boolean | `false` | Whether the place has outdoor seating. |
-| `opm_rating` | number | `4.49` | The OpenPizzaMap rating on a 0 to 5 scale. This is OpenPizzaMap's own composite score, not a third party's number. See [METHODOLOGY.md](METHODOLOGY.md). |
+| `serves_slices` | boolean | `false` | Whether the place sells pizza by the slice. |
+| `opening_hours` | string | `Mo-Sa 12:00-23:00` | Opening hours as stored on the map. Format varies by place (schema.org style or one line per day). May be empty. |
+| `phone` | string | `+390557965522` | The venue's phone number. May be empty. |
+| `opm_rating` | number | `4.12` | The OpenPizzaMap community rating, 0 to 5, built only from reviews by OpenPizzaMap members. Empty when a place has no community review yet. See [METHODOLOGY.md](METHODOLOGY.md). |
+| `opm_review_count` | integer | `3` | Number of OpenPizzaMap community reviews behind `opm_rating`. |
 | `website` | string (URL) | `https://www.pizzartetirana.com/` | The venue's own website. May be empty. |
 | `instagram` | string (URL) | `https://instagram.com/pizzarte.tirana` | The venue's Instagram profile. May be empty. |
 | `facebook` | string (URL) | `https://www.facebook.com/pizzartetirana/` | The venue's Facebook page. May be empty. |
@@ -40,6 +45,6 @@ Some things are left out on purpose:
   method behind it. How places are chosen and rated is described in prose in
   [METHODOLOGY.md](METHODOLOGY.md); the pipeline itself is not part of this repository.
 
-Address and coordinates **are** included: they are factual information about a public
-business, published under CC-BY-4.0. `opm_rating` is OpenPizzaMap's own composite score (see
-[METHODOLOGY.md](METHODOLOGY.md)), not a third party's number.
+Address, postal code and coordinates **are** included: they are OpenPizzaMap data about
+public businesses, published under the ODbL. `opm_rating` is computed only from OpenPizzaMap
+community reviews (see [METHODOLOGY.md](METHODOLOGY.md)).

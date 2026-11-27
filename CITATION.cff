@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
-title: "OpenPizzaMap Curated Pizzeria Dataset"
-abstract: "A hand-curated, community-checked dataset of pizzerias worth traveling for, with pizza style, price level, service options, and the OpenPizzaMap rating."
+title: "OpenPizzaMap Pizzeria Dataset"
+abstract: "An open dataset of pizzerias worth traveling for, with pizza style, price level, service options, opening hours, and the OpenPizzaMap community rating. Rebuilt weekly from openpizzamap.com."
 type: dataset
 url: "https://openpizzamap.com"
 repository-code: "https://github.com/elehmanndev/openpizzamap_public"
-license: CC-BY-4.0
+license: ODbL-1.0
 authors:
   - name: "OpenPizzaMap"
     website: "https://openpizzamap.com"
@@ -15,3 +15,5 @@ keywords:
   - open data
   - restaurants
   - map
+version: "2.0.0"
+date-released: "2026-11-27"

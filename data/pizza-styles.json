@@ -2,70 +2,76 @@
   {
     "slug": "neapolitan",
     "name": "Neapolitan",
-    "description": "The original: a soft, blistered cornicione, a thin center under San Marzano tomatoes and fior di latte, and 60 to 90 seconds in a wood oven running close to 485C."
+    "description": "The Naples original: soft, blistered cornicione from a 900F wood oven in about 90 seconds. Where to eat real Neapolitan pizza, ranked by taste."
   },
   {
     "slug": "contemporanea",
     "name": "Neapolitan Contemporanea",
-    "description": "Modern Neapolitan pizza that keeps the DNA but rewrites the rim: higher hydration, longer ferments and a tall, airy canotto crust, built for lightness."
+    "description": "Modern Naples pizza: long-fermented, high-hydration dough with a tall, airy cornicione. Where to eat pizza contemporanea, ranked by taste."
   },
   {
-    "slug": "italian",
-    "name": "Traditional Italian"
+    "slug": "italian-style",
+    "name": "Italian Style",
+    "description": "The everyday Italian round pie, thin and pliable in the center with a blistered rim. Where to eat classic Italian pizza, ranked by taste."
+  },
+  {
+    "slug": "romana",
+    "name": "Roman-Style",
+    "description": "Pizza tonda romana, rolled thin and baked cracker-crisp edge to edge in a hot oven. Where to eat Roman-style pizza, ranked by taste."
   },
   {
     "slug": "al-taglio",
     "name": "Pizza al Taglio",
-    "description": "Rome's by-the-slice tradition: baked in long rectangular trays, sold by weight and cut with scissors, with a high-hydration, long-fermented open crumb."
-  },
-  {
-    "slug": "alla-pala",
-    "name": "Pizza alla Pala",
-    "description": "The Roman cousin of al taglio, baked and served on a long wooden peel in an elongated oval, with very wet, long-fermented dough and a light, crisp crust."
-  },
-  {
-    "slug": "romana",
-    "name": "Roman Tonda",
-    "description": "Rolled paper-thin and baked until the base shatters like a cracker, with almost no raised rim. That scrocchiarella snap is the whole appeal."
+    "description": "Roman pizza baked in trays and sold by weight: high-hydration dough, long ferment, crisp base. Where to eat pizza al taglio, ranked."
   },
   {
     "slug": "pinsa",
     "name": "Pinsa",
-    "description": "The oval, feather-light Roman flatbread: wheat blended with rice and soy flours, very high hydration and a long cold ferment, crisp outside and airy inside."
-  },
-  {
-    "slug": "padellino",
-    "name": "Pizza al Padellino",
-    "description": "Turin's small, personal pan pizza, also called al tegamino: thick and soft in the middle with a bottom fried crisp by the oiled pan."
-  },
-  {
-    "slug": "sicilian",
-    "name": "Sicilian",
-    "description": "Thick, square and built for the bakery, with roots in sfincione, a spongy Palermo flatbread topped with onion, breadcrumb, anchovy and caciocavallo."
+    "description": "Roman pinsa: an oval, airy flatbread from a wheat, rice and soy blend, long-fermented and crisp. Where to eat pinsa, ranked."
   },
   {
     "slug": "pizza-fritta",
     "name": "Pizza Fritta",
-    "description": "Naples' fried answer to the oven: dough stuffed with ricotta, cicoli, provola and a little tomato, sealed and dropped into hot oil until it puffs gold."
+    "description": "Naples street pizza fried, not baked: the dough folded or stuffed and blistered in hot oil. Where to eat pizza fritta, ranked by taste."
   },
   {
     "slug": "ny",
     "name": "New York-Style",
-    "description": "Wide, thin, hand-tossed and foldable, baked in a hot deck oven until the underside is spotted and pliable. Descended from Neapolitan, stretched larger."
+    "description": "Wide, thin, foldable slices from a hot gas deck oven, built on high-gluten dough. Where to eat New York-style pizza, ranked by taste."
   },
   {
     "slug": "new-haven",
     "name": "New Haven Apizza",
-    "description": "Connecticut's coal-fired pizza: thin, irregular, charred hard at the edges, with a dry, smoky, chewy crust closer to its Neapolitan ancestor than to New York."
+    "description": "New Haven's coal-fired pies: thin, oblong, charred, and known for the white clam pie. Where to eat apizza, ranked by taste."
+  },
+  {
+    "slug": "alla-pala",
+    "name": "Pizza alla Pala",
+    "description": "Roman pizza shaped long on a wooden peel, baked on the stone: high-hydration dough, light and crisp, sold by the length."
   },
   {
     "slug": "detroit",
     "name": "Detroit-Style",
-    "description": "The rectangular one with crunchy, lacy edges, baked in blue-steel pans with brick cheese pushed to the walls so it fries into a crisp frico rim, sauce on last."
+    "description": "Thick, airy squares baked in steel pans with cheese caramelized to a crust at the edges. Where to eat Detroit-style pizza, ranked."
   },
   {
     "slug": "chicago",
     "name": "Chicago Deep-Dish",
-    "description": "Built in a high-edged pan and stacked in reverse: cheese on the dough, fillings next, and crushed tomato on top so the long bake does not scorch it."
+    "description": "A deep, buttery crust layered cheese-first with sauce on top, baked long and cut thick. Where to eat Chicago deep-dish, ranked."
+  },
+  {
+    "slug": "sicilian",
+    "name": "Sicilian",
+    "description": "Thick, airy rectangular pizza with roots in Palermo's sfincione, baked in an oiled pan. Where to eat Sicilian-style pizza, ranked."
+  },
+  {
+    "slug": "padellino",
+    "name": "Pizza al Padellino",
+    "description": "Turin's small round pan pizza: thick, soft, and light with a fried-crisp base. Where to eat pizza al padellino, ranked by taste."
+  },
+  {
+    "slug": "argentine",
+    "name": "Argentine",
+    "description": "Buenos Aires made pizza its own: thick media masa piled with muzzarella, onion-stuffed fugazzeta, and chickpea fainá stacked on the slice."
   }
 ]

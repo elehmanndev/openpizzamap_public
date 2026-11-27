@@ -5,7 +5,7 @@ title: "[Bad data] "
 labels: bad-data
 ---
 
-**Place URL on openpizzamap.com:**
+**Place URL on openpizzamap.com (or the `id` from the dataset):**
 
 **What's wrong:** (closed / wrong address / duplicate / wrong style / not actually a pizzeria / other)
 

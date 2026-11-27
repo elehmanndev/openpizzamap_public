@@ -26,7 +26,9 @@ The bar is "would someone who actually cares about pizza send a friend here?"
 
 ## Report bad data
 
-Wrong address, place closed, duplicate listing, wrong style classification? Open a [Report bad data](.github/ISSUE_TEMPLATE/report-bad-data.md) issue with the place URL.
+Wrong address, place closed, duplicate listing, wrong style classification? Open a [Report bad data](.github/ISSUE_TEMPLATE/report-bad-data.md) issue with the place URL or the `id` column from the dataset.
+
+Fixes go to the live map first and reach the dataset in the next weekly build. Please don't open pull requests that edit the files in `/data`: they are regenerated every week, so a hand edit there would be overwritten. An issue is the way in.
 
 ## What this repo is not
 
