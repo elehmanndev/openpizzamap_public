@@ -37,11 +37,9 @@ under the ODbL. Documentation is CC-BY-4.0, the demo code is MIT. See
   issue with the place URL or its `id`.
 - **Missing a pizzeria?** Use [openpizzamap.com/add-your-spot](https://openpizzamap.com/add-your-spot)
   or open a [Suggest a spot](https://github.com/elehmanndev/openpizzamap_public/issues/new?template=suggest-a-spot.md) issue.
-- **Mapping on OpenStreetMap?** Many of our pizzerias are missing from OSM or lack
-  `cuisine=pizza`. We are preparing MapRoulette challenges so mappers can check them with
-  their usual sources.
 
-Fixes land on the live map first and reach this dataset in the next weekly build.
+Every fix goes through OpenPizzaMap: it lands on the live map first and reaches this
+dataset in the next weekly build.
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Demo
